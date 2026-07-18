@@ -744,8 +744,9 @@ TEST: Test url again after removing the parameters and verify there is no mistak
 - [MariBank PH (SeaBank)](https://play.google.com/store/apps/details?id=ph.seabank.seabank) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/986)
 - [Maya – savings, loans, cards​](https://play.google.com/store/apps/details?id=com.paymaya) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/985)
 - [Metrobank App](https://play.google.com/store/apps/details?id=ph.com.metrobank.mcc.mbonline) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/990)
-- [RCBCpulz](https://play.google.com/store/apps/details?id=com.rcbc.pulz) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/602)
+- ~~[RCBCpulz](https://play.google.com/store/apps/details?id=com.rcbc.pulz)~~ - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/602)
 - [Security Bank App](https://play.google.com/store/apps/details?id=com.securitybank.bbx) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/598)
+- [Tonik Bank: Loans & Deposits](https://play.google.com/store/apps/details?id=com.tonik.mobile) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/1025)
 - [UnionBank Online](https://play.google.com/store/apps/details?id=com.unionbankph.online) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/984)
 - [VYBE by BPI](https://play.google.com/store/apps/details?id=com.indivara.bpi) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/993)
 
@@ -949,6 +950,7 @@ TEST: Test url again after removing the parameters and verify there is no mistak
 - [debiX+](https://play.google.com/store/apps/details?id=com.sixgroup.debixplus) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/227)
 - [Migros Bank E-Banking](https://play.google.com/store/apps/details?id=ch.migrosbank.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/582)
 - [neon - your account app](https://play.google.com/store/apps/details?id=com.neonbanking.app) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/207)
+- [OLIVIA Key TKB](https://play.google.com/store/apps/details?id=ch.tkb.cronto) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/1023)
 - [OLIVIA Mobile Banking TKB](https://play.google.com/store/apps/details?id=ch.tkb.androidapp) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/1014)
 - [PostFinance App](https://play.google.com/store/apps/details?id=ch.postfinance.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/414)
 - [Prepaid TWINT & other banks](https://play.google.com/store/apps/details?id=ch.twint.payment) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/228)
@@ -958,13 +960,15 @@ TEST: Test url again after removing the parameters and verify there is no mistak
 - [Raiffeisen TWINT](https://play.google.com/store/apps/details?id=ch.raiffeisen.twint) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/617)
 - [Swisscard](https://play.google.com/store/apps/details?id=com.swisscard.prod) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/865)
   - Play Integrity usage must be blocked for this app to run!
-- ~~[Swissquote](https://play.google.com/store/apps/details?id=com.swissquote.android)~~ - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/471)
+- [Swissquote](https://play.google.com/store/apps/details?id=com.swissquote.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/471)
+  - This app has whitelisted GrapheneOS through the hardware attestation api.
+- [TKB TWINT](https://play.google.com/store/apps/details?id=ch.tkb.twint) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/1024)
 - [UBS Access: Secure login](https://play.google.com/store/apps/details?id=com.ubs.swidK2Y.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/508)
 - [UBS TWINT](https://play.google.com/store/apps/details/UBS_TWINT?id=com.ubs.Paymit.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/507)
 - ~~[UBS & UBS key4](https://play.google.com/store/apps/details?id=com.ubs.swidKXJ.android)~~ - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/493)
 - [Valiant](https://play.google.com/store/apps/details?id=com.valiant.mobilebanking.release) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/998)
 - [Yuh - Your App. Your Money.](https://play.google.com/store/apps/details?id=com.yuh) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/509)
-  - This app officially supports GrapheneOS!
+  - This app has whitelisted GrapheneOS through the hardware attestation api.
 - [ZKB Access](https://play.google.com/store/apps/details?id=ch.zkb.digipass) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/94)
 - [ZKB Mobile Banking](https://play.google.com/store/apps/details?id=ch.zkb.slv.mobile.client.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/93)
 - [ZKB TWINT](https://play.google.com/store/apps/details?id=ch.zkb.twint) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/824)
@@ -1052,9 +1056,11 @@ TEST: Test url again after removing the parameters and verify there is no mistak
 - [Marcus by Goldman Sachs®](https://play.google.com/store/apps/details?id=com.marcus.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/212)
   - Secure app spawning must be disabled for this app to run!
 - ~~[MBNA Mobile App](https://play.google.com/store/apps/details?id=uk.co.mbna.cardservices.android)~~ - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/537)
+- ~~[Mettle business bank account](https://play.google.com/store/apps/details?id=uk.co.mettle.app)~~ - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/1026)
+- [Metro Bank](https://play.google.com/store/apps/details?id=uk.co.metrobankonline.mobile.android.production) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/209)
+- [Moneybox - Save and Invest](https://play.google.com/store/apps/details?id=com.moneyboxapp) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/1027)
 - [Monument Bank](https://play.google.com/store/apps/details?id=co.monument.app) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/977)
 - [Monzo Bank - Mobile Banking](https://play.google.com/store/apps/details?id=co.uk.getmondo) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/58)
-- [Metro Bank](https://play.google.com/store/apps/details?id=uk.co.metrobankonline.mobile.android.production) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/209)
   - Secure app spawning must be disabled for this app to run!
 - [MyAviva - Insurance & finance](https://play.google.com/store/apps/details?id=co.uk.aviva.myavivaapp) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/981)
 - [M&S Banking](https://play.google.com/store/apps/details?id=com.mns.mnsuk.android) - [Report](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/695)
